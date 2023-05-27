@@ -1,0 +1,103 @@
+
+├── playbook.yml
+└── roles
+    ├── role1
+    │   └── task1
+    │       └── anji.yml
+    ├── role2
+    │   └── task2
+    │       └── anji.yml
+    ├── role3
+    │   └── task3
+    │       └── anji.yml
+    ├── role4
+    │   └── task4
+    │       └── anji.yml
+    ├── role5
+    │   └── task5
+    └── role6
+        └── task6
+
+13 directories, 5 files
+[ansible@ansible playbook]$ history
+    1  hostname -i
+    2  ssh-keygen
+    3  ssh-copy-id ansible@172.31.0.246
+    4  ssh 172.31.0.246
+    5  ssh-copy-id ansible@172.31.6.79
+    6  ssh 172.31.6.79
+    7  ssh-copy-id ansible@172.31.15.14
+    8  ssh 172.31.15.14
+    9  ssh-copy-id ansible@172.31.7.81
+   10  ssh 172.31.7.81
+   11  ssh-copy-id ansible@172.31.8.244
+   12  ssh 172.31.8.244
+   13  ssh-copy-id ansible@172.31.12.1
+   14  ssh 172.31.12.1
+   15  ansible all --list-hosts
+   16  ansible all -m ping
+   17  sudo yum install tree -y
+   18  mkdir playbook
+   19  cd playbook
+   20  cd roles
+   21  ll
+   22  vim playbook.yml
+   23  ll
+   24  mkdir roles
+   25  mkdir roles/role1
+   26  mkdir roles/role2
+   27  mkdir roles/role3
+   28  mkdir roles/role4
+   29  mkdir roles/role5
+   30  mkdir roles/role6
+   31  tree
+   32  mkdir roles/role1/task1
+   33  mkdir roles/role2/task2
+   34  mkdir roles/role3/task3
+   35  mkdir roles/role4/task4
+   36  mkdir roles/role5/task5
+   37  mkdir roles/role6/task6
+   38  tree
+   39  cd roles
+   40  cd role1
+   41  cd task1
+   42  vim anji.yml
+   43  ansible-playbook anji.yml
+   44  tree
+   45  cd ..
+   46  tree
+   47  ansible all -ba "yum remove java* -y"
+   48  cd roles
+   49  cd role2
+   50  cd task2
+   51  vim anji.yml
+   52  ansible-playbook anji.yml
+   53  ansible all -ba "yum remove docker* -y"
+   54  vim anji.yml
+   55  ansible-playbook anji.yml
+   56  vim anji.yml
+   57  ansible-playbook anji.yml
+   58  vim anji.yml
+   59  ansible-playbook anji.yml
+   60  ansible all -ba "yum remove docker* -y"
+   61  vim anji.yml
+   62  ansible-playbook anji.yml
+   63  cd ..
+   64  tree
+   65  mkdir roles
+   66  cd roles
+   67  cd role3
+   68  cd task3
+   69  vim anji.yml
+   70  ansible-playbook anji.yml
+   71  cd ..
+   72  tree
+   73  cd roles
+   74  cd role4
+   75  cd task4
+   76  vim anji.yml
+   77  ansible-playbook anji.yml
+   78  vim anji.yml
+   79  ansible-playbook anji.yml
+   80  cd ..
+   81  tree
